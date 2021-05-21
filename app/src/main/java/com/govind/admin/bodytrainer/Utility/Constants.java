@@ -27,8 +27,12 @@ public class Constants {
     public static String USER_LOGIN="Userlogingym.php";
     public static final String REGISTER_URL ="userregistrationgym.php";
 
-    public static String Prod_Base_Url="http://www.justbathinda.com/";
-    public static String Dev_Base_Url="http://www.justbathinda.com/";
+//    public static String Prod_Base_Url="http://www.justbathinda.com/";
+//    public static String Dev_Base_Url="http://www.justbathinda.com/";
+    public static String Prod_Base_Url="http://govind.website/";
+    public static String Dev_Base_Url="http://govind.website/";
+
+
 
 
     public static String getBaseURL() {

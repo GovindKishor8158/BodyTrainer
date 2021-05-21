@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.govind.admin.bodytrainer.BeanModule.User;
 import com.govind.admin.bodytrainer.HomePage.HomePage;
+import com.govind.admin.bodytrainer.LoginModule.LoginActivity;
 
 public class SplashScreen extends AppCompatActivity {
     private long SPLASH_TIME_OUT = 3000;
@@ -29,8 +30,8 @@ public class SplashScreen extends AppCompatActivity {
                 if (User.getCurrentUser() == null ) {
                     // This method will be executed once the timer is over
                     // Start your app main activity
-                   // Intent i = new Intent(SplashScreen.this, LoginActivity.class); //Login screen
-                    Intent i = new Intent(SplashScreen.this, HomePage.class);
+                    Intent i = new Intent(SplashScreen.this, LoginActivity.class); //Login screen
+                    //Intent i = new Intent(SplashScreen.this, HomePage.class);
                     startActivity(i);
                 }
 
