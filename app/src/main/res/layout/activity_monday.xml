@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parent"
+        >
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/common_toolbar" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+
+            android:background="@android:color/white"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+           >
+             <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="180dp"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="Close Hand Push-Ups"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+        <TextView
+            android:id="@+id/textset"
+            android:layout_width="180dp"
+            android:layout_below="@+id/textView7"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="sets:10,12,14"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+        <!--<WebView android:id="@+id/web"-->
+            <!--android:layout_below="@+id/textset"-->
+            <!--android:layout_marginTop="@dimen/dp_5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="220dp"-->
+
+            <!--/>-->
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/closepushgif"
+            android:layout_below="@+id/textset"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/closepushup"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/textpushupiii"
+            android:layout_width="180dp"
+            android:layout_below="@+id/closepushgif"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="Wide Hand Push-Ups"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+        <TextView
+            android:id="@+id/textsetswide"
+            android:layout_width="180dp"
+            android:layout_below="@+id/textpushupiii"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="sets:10,12,14"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_below="@+id/textsetswide"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/widepusgif"
+            android:src="@drawable/pushupgif"
+
+            />
+
+        <TextView
+            android:id="@+id/textjumpingjack"
+            android:layout_width="180dp"
+            android:layout_below="@+id/widepusgif"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="Jumping Jack"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+        <TextView
+            android:id="@+id/textsetjumpingjack"
+            android:layout_width="180dp"
+            android:layout_below="@+id/textjumpingjack"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="sets:10,12,14"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_below="@+id/textsetjumpingjack"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/jumpjkgif"
+            android:src="@drawable/jumpingjack"
+
+            />
+
+        <TextView
+            android:id="@+id/textpullup"
+            android:layout_width="180dp"
+            android:layout_below="@+id/jumpjkgif"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="Pull-Ups"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+        <TextView
+            android:id="@+id/textsetpullup"
+            android:layout_width="180dp"
+            android:layout_below="@+id/textpullup"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/gradiant_bgsec"
+            android:text="sets:10,12,14"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#66ffdf"
+            android:textSize="18sp"  />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_below="@+id/textsetpullup"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/pullupsgif"
+
+            />
+             </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>

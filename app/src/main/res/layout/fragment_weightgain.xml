@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:layout_height="match_parent"
+    tools:context="com.govind.admin.bodytrainer.LoginModule.RegistrationActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/seeall">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Weight Gain Tips"
+                    android:id="@+id/weightloss"
+                    android:layout_marginTop="120dp"
+                    android:textSize="20sp"
+                    android:paddingBottom="@dimen/dp_5"
+                    android:paddingTop="@dimen/dp_5"
+                    android:paddingStart="@dimen/dp_15"
+                    android:paddingEnd="@dimen/dp_15"
+                    android:fontFamily="serif"
+                    android:background="@drawable/gradiant_bgsec"
+                    android:textStyle="bold"
+                    android:textColor="#66ffdf"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="200dp"
+                android:id="@+id/card"
+                android:layout_height="wrap_content">
+
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:id="@+id/card1"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/reglay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Weight Gain Tips"
+                            android:id="@+id/breakfasttext"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/darker_bluee"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+
+
+                        <TextView
+                            android:id="@+id/wholegg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/breakfasttext"
+                            android:text="1.Homemade Protein Smoothies"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg"
+                            android:text="2.Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite"
+                            android:text="3.Rice"
+                            android:maxLines="1"
+
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats"
+                            android:text="4.Nuts and Nut Butters"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="5.Red Meats"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="6.Potatoes and Straches"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="7.Salmon and Oily Fish"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card1"
+                    android:id="@+id/card2"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/reglaysec"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Snack(9.00am-10.00am)"
+                            android:id="@+id/joinsec"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+                            android:visibility="gone"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorAccent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/joinsec"
+                            android:text="8.Protein Supplements"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg1"
+                            android:text="9.Dried Fruit"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite1"
+                            android:text="10.Whole-Gain Bread"
+                            android:maxLines="1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats1"
+                            android:text="11.Avocados"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="12.Healthy Cereals"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="13.Cereal Bars"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="14.Dark Chocolate"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card2"
+                    android:id="@+id/card3"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/lunchlay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Lunch(11.00am-12.00pm)"
+                            android:id="@+id/lunch"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+                            android:visibility="gone"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorAccent1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/lunch"
+                            android:text="15.Cheese"
+                            android:fontFamily="serif"
+                            android:maxLines="2"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg2"
+                            android:text="16.Whole Eggs"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite2"
+                            android:text="17.Full-Fat Yogurt"
+                            android:maxLines="1"
+
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats2"
+                            android:text="18.Healthy Fats and Oils"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey2"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="19.Concentrate on Complex,Compond exercises "
+                            android:maxLines="2"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana2"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="20.Appearance is a Consequence of fitness"
+                            android:maxLines="2"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder2"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="21.Let your muscles rest"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card3"
+                    android:id="@+id/card4"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/snackseclay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Snack(3.00pm-4.00pm)"
+                            android:id="@+id/snacksectext"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+                            android:visibility="gone"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/leave"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/snacksectext"
+                            android:text="22.Realize you will put on some fat,and thats okay"
+                            android:fontFamily="serif"
+                            android:maxLines="2"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+
+
+
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

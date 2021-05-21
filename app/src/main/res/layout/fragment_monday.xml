@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:layout_height="match_parent"
+    tools:context="com.govind.admin.bodytrainer.LoginModule.RegistrationActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/foodlay"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/food2">
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="120dp"
+                android:id="@+id/card"
+
+                android:layout_height="wrap_content">
+
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:id="@+id/card1"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/reglay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Weight Loss Tips"
+                            android:id="@+id/daytext"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:paddingBottom="@dimen/dp_2"
+                            android:paddingTop="@dimen/dp_2"
+                            android:paddingStart="@dimen/dp_20"
+                            android:paddingEnd="@dimen/dp_20"
+                            android:fontFamily="serif"
+                            android:background="@drawable/gradiant_bgsec"
+                            android:textStyle="bold"
+                            android:textColor="#66ffdf"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Breakfast(6.00am-7.00am)"
+                            android:id="@+id/breakfasttext"
+                            android:layout_marginTop="@dimen/dp_10"
+                            android:textSize="20sp"
+                            android:layout_below="@+id/daytext"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/darker_bluee"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+
+
+                            <TextView
+                                android:id="@+id/wholegg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginBottom="@dimen/dp_10"
+                                android:layout_below="@+id/breakfasttext"
+                                android:text="Whole eggs"
+                                android:fontFamily="serif"
+                                android:maxLines="1"
+                                android:textColor="@color/dark"
+                                android:textSize="15sp"
+                                android:theme="@style/edtTextStyl"
+                                />
+
+
+
+
+                            <TextView
+                                android:id="@+id/eggwhite"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginBottom="@dimen/dp_10"
+                                android:layout_marginRight="20dp"
+                                android:layout_below="@+id/wholegg"
+                                android:text="Egg whites(scrambled)"
+                                android:maxLines="1"
+                                android:fontFamily="serif"
+                                android:theme="@style/edtTextStyl"
+                                android:textColor="@color/dark"
+                                android:textSize="15sp"
+                                />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite"
+                            android:text="Cooked Oats"
+                            android:maxLines="1"
+
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats"
+                            android:text="Honey"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Banana"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Protein Powder"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card1"
+                    android:id="@+id/card2"
+                    android:background="@drawable/box_bgsec"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+
+                        android:id="@+id/reglaysec"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Snack(9.00am-10.00am)"
+                            android:id="@+id/joinsec"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorAccent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/joinsec"
+                            android:text="Whole eggs"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg1"
+                            android:text="Egg whites(scrambled)"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite1"
+                            android:text="Cooked Oats"
+                            android:maxLines="1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats1"
+                            android:text="Honey"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Banana"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Protein Powder"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card2"
+                    android:id="@+id/card3"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/lunchlay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Lunch(11.00am-12.00pm)"
+                            android:id="@+id/lunch"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorAccent1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/lunch"
+                            android:text="Whole eggs"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg2"
+                            android:text="Egg whites(scrambled)"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite2"
+                            android:text="Cooked Oats"
+                            android:maxLines="1"
+
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats2"
+                            android:text="Honey"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey2"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Banana"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana2"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Protein Powder"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder2"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card3"
+                    android:id="@+id/card4"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/snackseclay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Snack(3.00pm-4.00pm)"
+                            android:id="@+id/snacksectext"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/leave"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/snacksectext"
+                            android:text="Whole eggs"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg3"
+                            android:text="Egg whites(scrambled)"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite3"
+                            android:text="Cooked Oats"
+                            android:maxLines="1"
+
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats3"
+                            android:text="Honey"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey3"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Banana"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana3"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Protein Powder"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder3"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card4"
+                    android:id="@+id/card5"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/dinnerlay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Dinner(3.00pm-4.00pm)"
+                            android:id="@+id/dinnertext"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/pink"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/dinnertext"
+                            android:text="Whole eggs"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg4"
+                            android:text="Egg whites(scrambled)"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite4"
+                            android:text="Cooked Oats"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats4"
+                            android:text="Honey"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey4"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Banana"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana4"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Protein Powder"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder4"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardElevation="@dimen/dp_10"
+                    android:layout_below="@+id/card5"
+                    android:id="@+id/card6"
+                    app:cardCornerRadius="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:id="@+id/supperlay"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Supper(3.00pm-4.00pm)"
+                            android:id="@+id/suppertext"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:textSize="20sp"
+
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:textColor="@color/orange"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/wholegg5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_below="@+id/suppertext"
+                            android:text="Whole eggs"
+                            android:fontFamily="serif"
+                            android:maxLines="1"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            android:theme="@style/edtTextStyl"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/eggwhite5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/wholegg5"
+                            android:text="Egg whites(scrambled)"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/cookedoats5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/eggwhite5"
+                            android:text="Cooked Oats"
+                            android:maxLines="1"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:id="@+id/honey5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/cookedoats5"
+                            android:text="Honey"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/banana5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/honey5"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Banana"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/proteinpowder5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/banana5"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Protein Powder"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/milk5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/proteinpowder5"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_marginRight="20dp"
+                            android:text="Milk"
+                            android:maxLines="1"
+                            android:fontFamily="serif"
+                            android:theme="@style/edtTextStyl"
+                            android:textColor="@color/dark"
+                            android:textSize="15sp"
+                            />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

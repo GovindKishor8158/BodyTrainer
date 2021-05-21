@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/txtPass"
+            android:icon="@drawable/app"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/txtFeedback"
+            android:icon="@drawable/app"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/txtRate"
+            android:icon="@drawable/app"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/txtShare"
+            android:icon="@drawable/app"
+            android:title="Share Us" />
+        <item
+            android:id="@+id/txtPP"
+            android:icon="@drawable/app"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/txtInfo"
+            android:icon="@drawable/app"
+            android:title="App Info" />
+        <item
+            android:id="@+id/txtpayonline"
+            android:title="Pay Online"
+            android:icon="@drawable/app"
+            />
+
+        <item
+            android:id="@+id/txstaffset"
+            android:visible="false"
+            android:title="Student Setting"
+            android:icon="@drawable/app"
+            />
+        <item
+            android:id="@+id/txtLogout"
+            android:icon="@drawable/app"
+            android:title="Logout" />
+    </group>
+</menu>

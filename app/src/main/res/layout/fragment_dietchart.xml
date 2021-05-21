@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.govind.admin.bodytrainer.HomePage.HomePage">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:background="@color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorAccent1"
+        app:tabMode="scrollable"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabSelectedTextColor="@color/colorAccent1"
+        app:tabTextColor="@color/colorPrimaryDark" />
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        android:layout_below="@+id/tab_layout"
+        android:layout_height="1dp"
+        android:background="@color/line_color" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

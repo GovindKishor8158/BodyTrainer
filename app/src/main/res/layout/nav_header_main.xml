@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradiantcolor">
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/dp_40"
+        android:padding="@dimen/dp_20"
+        android:background="@drawable/gradiantcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/circleimg"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="@dimen/txt_20"
+            android:layout_alignTop="@+id/employye_id"
+            android:layout_centerHorizontal="true"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/man"
+            app:siBorderColor="#66ffdf"
+            app:siBorderWidth="2dp" />
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingStart="@dimen/dp_10"
+            android:text="User Name"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#66ffdf"
+            android:paddingLeft="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/txtUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_5"
+            android:paddingStart="@dimen/dp_10"
+            android:text="User name"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#66ffdf"
+            android:paddingLeft="@dimen/dp_10" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
