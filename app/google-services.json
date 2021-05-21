@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "595844517496",
+    "firebase_url": "https://bodytrainer-b928b.firebaseio.com",
+    "project_id": "bodytrainer-b928b",
+    "storage_bucket": "bodytrainer-b928b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595844517496:android:103a169d8bd1a29a",
+        "android_client_info": {
+          "package_name": "com.example.admin.bodytrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595844517496-aa8it7eumiaudcc38ads27rf2h8ui4hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.bodytrainer",
+            "certificate_hash": "8c70ac56ffc323e8370da7b269ea86f6f0e93545"
+          }
+        },
+        {
+          "client_id": "595844517496-hasdcl8erj5vg8mcn0bp9ovg19ogs8t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.bodytrainer",
+            "certificate_hash": "e846b6a4ffbef1f6403e677c9a9dff80283a6952"
+          }
+        },
+        {
+          "client_id": "595844517496-or7savpoaofoj3ikpl7bjpfvea67ua4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaaQb79HujMoMNVneKN34XqazEAp-3f1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595844517496-or7savpoaofoj3ikpl7bjpfvea67ua4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595844517496:android:77e47939eccb70362c678d",
+        "android_client_info": {
+          "package_name": "com.govind.admin.bodytrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595844517496-or7savpoaofoj3ikpl7bjpfvea67ua4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaaQb79HujMoMNVneKN34XqazEAp-3f1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595844517496-or7savpoaofoj3ikpl7bjpfvea67ua4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
